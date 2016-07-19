@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22ACE551C3B73620096B340 /* OBContentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22ACE541C3B73620096B340 /* OBContentListCell.swift */; };
+		C22ACE571C3BA2C90096B340 /* OBWaterWavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22ACE561C3BA2C90096B340 /* OBWaterWavesView.swift */; };
+		C23B428F1C338B7C00B0F3E9 /* XDLoginCommonBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B428E1C338B7C00B0F3E9 /* XDLoginCommonBtn.swift */; };
+		C23B42911C33A2A000B0F3E9 /* OBSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23B42901C33A2A000B0F3E9 /* OBSignViewController.swift */; };
+		C23B42CF1C33B22100B0F3E9 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B42CC1C33B22100B0F3E9 /* MBProgressHUD+MJ.m */; };
+		C23B42D01C33B22100B0F3E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B42CE1C33B22100B0F3E9 /* MBProgressHUD.m */; };
+		C242D4131C2B92CD005DBAEB /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C242D4121C2B92CD005DBAEB /* BmobSDK.framework */; };
+		C242D4161C2B9B64005DBAEB /* XDCommonFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D4151C2B9B64005DBAEB /* XDCommonFunc.swift */; };
+		C242D4191C2BB4F3005DBAEB /* UIViewFrameCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D4181C2BB4F3005DBAEB /* UIViewFrameCategory.swift */; };
+		C242D41C1C2BBA09005DBAEB /* OBMeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D41B1C2BBA09005DBAEB /* OBMeHeadView.swift */; };
+		C242D41E1C2BD370005DBAEB /* OBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D41D1C2BD370005DBAEB /* OBLoginViewController.swift */; };
+		C242D4201C2BE551005DBAEB /* OBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D41F1C2BE551005DBAEB /* OBTextField.swift */; };
+		C242D4231C2BEE0F005DBAEB /* XDSetBgColorBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242D4221C2BEE0F005DBAEB /* XDSetBgColorBtn.swift */; };
+		C25E4A2B1C3A04F900B91252 /* XDRebulidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E4A2A1C3A04F900B91252 /* XDRebulidView.swift */; };
+		C25E4A2D1C3A113F00B91252 /* OBSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E4A2C1C3A113F00B91252 /* OBSettingViewController.swift */; };
+		C25E4A2F1C3A35A300B91252 /* XDInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E4A2E1C3A35A300B91252 /* XDInputTextView.swift */; };
+		C271C8AF1C2A854D00157B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C271C8AE1C2A854D00157B63 /* Assets.xcassets */; };
+		C271C8BD1C2A854D00157B63 /* openblogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8BC1C2A854D00157B63 /* openblogTests.swift */; };
+		C271C8C81C2A854D00157B63 /* openblogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8C71C2A854D00157B63 /* openblogUITests.swift */; };
+		C271C8DA1C2A86A800157B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8D81C2A86A800157B63 /* AppDelegate.swift */; };
+		C271C8DB1C2A86A800157B63 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C271C8D91C2A86A800157B63 /* Info.plist */; };
+		C271C8E01C2A882E00157B63 /* OBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8DF1C2A882E00157B63 /* OBNavigationController.swift */; };
+		C271C8E21C2A899C00157B63 /* OBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8E11C2A899C00157B63 /* OBTabBarController.swift */; };
+		C271C8E81C2A8A7400157B63 /* OBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8E71C2A8A7400157B63 /* OBHomeViewController.swift */; };
+		C271C8EA1C2A8AA900157B63 /* OBTimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8E91C2A8AA900157B63 /* OBTimeLineViewController.swift */; };
+		C271C8EC1C2A8ABF00157B63 /* OBMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271C8EB1C2A8ABF00157B63 /* OBMeViewController.swift */; };
+		C271C8F31C2AA0F200157B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8F21C2AA0F200157B63 /* Foundation.framework */; };
+		C271C8F51C2AA10000157B63 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8F41C2AA10000157B63 /* CoreLocation.framework */; };
+		C271C8F71C2AA11300157B63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8F61C2AA11300157B63 /* Security.framework */; };
+		C271C8F91C2AA11F00157B63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8F81C2AA11F00157B63 /* CoreGraphics.framework */; };
+		C271C8FB1C2AA12900157B63 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8FA1C2AA12900157B63 /* MobileCoreServices.framework */; };
+		C271C8FD1C2AA13100157B63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8FC1C2AA13100157B63 /* CFNetwork.framework */; };
+		C271C8FF1C2AA13A00157B63 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C8FE1C2AA13A00157B63 /* CoreTelephony.framework */; };
+		C271C9011C2AA14800157B63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C9001C2AA14800157B63 /* SystemConfiguration.framework */; };
+		C271C9031C2AA15000157B63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C9021C2AA15000157B63 /* AVFoundation.framework */; };
+		C271C9051C2AA15900157B63 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C9041C2AA15900157B63 /* MediaPlayer.framework */; };
+		C271C9071C2AA16300157B63 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C9061C2AA16300157B63 /* libz.1.2.5.tbd */; };
+		C271C9091C2AA16C00157B63 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C9081C2AA16C00157B63 /* libicucore.tbd */; };
+		C271C90B1C2AA17600157B63 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C271C90A1C2AA17600157B63 /* libsqlite3.tbd */; };
+		C29E54C01C34C396007AB37D /* OBTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E54BF1C34C396007AB37D /* OBTextView.swift */; };
+		C29E54C31C34F3C0007AB37D /* OBHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E54C21C34F3C0007AB37D /* OBHomeListCell.swift */; };
+		C29E54C51C352645007AB37D /* OBContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E54C41C352645007AB37D /* OBContentViewController.swift */; };
+		C2FD02251C3CDDA300B4B1ED /* PgyUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FD02241C3CDDA300B4B1ED /* PgyUpdate.framework */; };
+		C2FD02271C3CEE5A00B4B1ED /* OBAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD02261C3CEE5A00B4B1ED /* OBAboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C271C8B91C2A854D00157B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C271C89C1C2A854D00157B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C271C8A31C2A854D00157B63;
+			remoteInfo = openblog;
+		};
+		C271C8C41C2A854D00157B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C271C89C1C2A854D00157B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C271C8A31C2A854D00157B63;
+			remoteInfo = openblog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C22ACE541C3B73620096B340 /* OBContentListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBContentListCell.swift; sourceTree = "<group>"; };
+		C22ACE561C3BA2C90096B340 /* OBWaterWavesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBWaterWavesView.swift; sourceTree = "<group>"; };
+		C23B428E1C338B7C00B0F3E9 /* XDLoginCommonBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDLoginCommonBtn.swift; sourceTree = "<group>"; };
+		C23B42901C33A2A000B0F3E9 /* OBSignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBSignViewController.swift; sourceTree = "<group>"; };
+		C23B42CB1C33B22100B0F3E9 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		C23B42CC1C33B22100B0F3E9 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		C23B42CD1C33B22100B0F3E9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C23B42CE1C33B22100B0F3E9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C242D4121C2B92CD005DBAEB /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = ../BmobSDK.framework; sourceTree = "<group>"; };
+		C242D4151C2B9B64005DBAEB /* XDCommonFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDCommonFunc.swift; sourceTree = "<group>"; };
+		C242D4181C2BB4F3005DBAEB /* UIViewFrameCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewFrameCategory.swift; sourceTree = "<group>"; };
+		C242D41B1C2BBA09005DBAEB /* OBMeHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBMeHeadView.swift; sourceTree = "<group>"; };
+		C242D41D1C2BD370005DBAEB /* OBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBLoginViewController.swift; sourceTree = "<group>"; };
+		C242D41F1C2BE551005DBAEB /* OBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBTextField.swift; sourceTree = "<group>"; };
+		C242D4221C2BEE0F005DBAEB /* XDSetBgColorBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSetBgColorBtn.swift; sourceTree = "<group>"; };
+		C25E4A2A1C3A04F900B91252 /* XDRebulidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDRebulidView.swift; sourceTree = "<group>"; };
+		C25E4A2C1C3A113F00B91252 /* OBSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBSettingViewController.swift; sourceTree = "<group>"; };
+		C25E4A2E1C3A35A300B91252 /* XDInputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDInputTextView.swift; sourceTree = "<group>"; };
+		C271C8A41C2A854D00157B63 /* openblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271C8AE1C2A854D00157B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../openblog/Assets.xcassets; sourceTree = "<group>"; };
+		C271C8B81C2A854D00157B63 /* openblogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openblogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271C8BC1C2A854D00157B63 /* openblogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openblogTests.swift; sourceTree = "<group>"; };
+		C271C8BE1C2A854D00157B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = openblogTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		C271C8C31C2A854D00157B63 /* openblogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openblogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271C8C71C2A854D00157B63 /* openblogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openblogUITests.swift; sourceTree = "<group>"; };
+		C271C8C91C2A854D00157B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C271C8D81C2A86A800157B63 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C271C8D91C2A86A800157B63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C271C8DF1C2A882E00157B63 /* OBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBNavigationController.swift; sourceTree = "<group>"; };
+		C271C8E11C2A899C00157B63 /* OBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBTabBarController.swift; sourceTree = "<group>"; };
+		C271C8E71C2A8A7400157B63 /* OBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBHomeViewController.swift; sourceTree = "<group>"; };
+		C271C8E91C2A8AA900157B63 /* OBTimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBTimeLineViewController.swift; sourceTree = "<group>"; };
+		C271C8EB1C2A8ABF00157B63 /* OBMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBMeViewController.swift; sourceTree = "<group>"; };
+		C271C8ED1C2AA05D00157B63 /* openblog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openblog-Bridging-Header.h"; sourceTree = "<group>"; };
+		C271C8F21C2AA0F200157B63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C271C8F41C2AA10000157B63 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C271C8F61C2AA11300157B63 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C271C8F81C2AA11F00157B63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C271C8FA1C2AA12900157B63 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C271C8FC1C2AA13100157B63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C271C8FE1C2AA13A00157B63 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C271C9001C2AA14800157B63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C271C9021C2AA15000157B63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C271C9041C2AA15900157B63 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C271C9061C2AA16300157B63 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		C271C9081C2AA16C00157B63 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		C271C90A1C2AA17600157B63 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C271C90C1C2AA41B00157B63 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C271C90D1C2AA53D00157B63 /* XDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDCommon.h; sourceTree = "<group>"; };
+		C29E54BF1C34C396007AB37D /* OBTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBTextView.swift; sourceTree = "<group>"; };
+		C29E54C21C34F3C0007AB37D /* OBHomeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBHomeListCell.swift; sourceTree = "<group>"; };
+		C29E54C41C352645007AB37D /* OBContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBContentViewController.swift; sourceTree = "<group>"; };
+		C2FD02241C3CDDA300B4B1ED /* PgyUpdate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PgyUpdate.framework; path = ../PgyUpdate.framework; sourceTree = "<group>"; };
+		C2FD02261C3CEE5A00B4B1ED /* OBAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBAboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C271C8A11C2A854D00157B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271C90B1C2AA17600157B63 /* libsqlite3.tbd in Frameworks */,
+				C271C9091C2AA16C00157B63 /* libicucore.tbd in Frameworks */,
+				C271C9071C2AA16300157B63 /* libz.1.2.5.tbd in Frameworks */,
+				C271C9051C2AA15900157B63 /* MediaPlayer.framework in Frameworks */,
+				C271C9031C2AA15000157B63 /* AVFoundation.framework in Frameworks */,
+				C242D4131C2B92CD005DBAEB /* BmobSDK.framework in Frameworks */,
+				C271C9011C2AA14800157B63 /* SystemConfiguration.framework in Frameworks */,
+				C271C8FF1C2AA13A00157B63 /* CoreTelephony.framework in Frameworks */,
+				C271C8FD1C2AA13100157B63 /* CFNetwork.framework in Frameworks */,
+				C2FD02251C3CDDA300B4B1ED /* PgyUpdate.framework in Frameworks */,
+				C271C8FB1C2AA12900157B63 /* MobileCoreServices.framework in Frameworks */,
+				C271C8F91C2AA11F00157B63 /* CoreGraphics.framework in Frameworks */,
+				C271C8F71C2AA11300157B63 /* Security.framework in Frameworks */,
+				C271C8F51C2AA10000157B63 /* CoreLocation.framework in Frameworks */,
+				C271C8F31C2AA0F200157B63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8B51C2A854D00157B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8C01C2A854D00157B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23B42921C33AA4700B0F3E9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C23B42CA1C33B22100B0F3E9 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C23B42CA1C33B22100B0F3E9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C23B42CB1C33B22100B0F3E9 /* MBProgressHUD+MJ.h */,
+				C23B42CC1C33B22100B0F3E9 /* MBProgressHUD+MJ.m */,
+				C23B42CD1C33B22100B0F3E9 /* MBProgressHUD.h */,
+				C23B42CE1C33B22100B0F3E9 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C242D4141C2B94B9005DBAEB /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD02241C3CDDA300B4B1ED /* PgyUpdate.framework */,
+				C242D4121C2B92CD005DBAEB /* BmobSDK.framework */,
+				C271C90A1C2AA17600157B63 /* libsqlite3.tbd */,
+				C271C9081C2AA16C00157B63 /* libicucore.tbd */,
+				C271C9061C2AA16300157B63 /* libz.1.2.5.tbd */,
+				C271C9041C2AA15900157B63 /* MediaPlayer.framework */,
+				C271C9021C2AA15000157B63 /* AVFoundation.framework */,
+				C271C9001C2AA14800157B63 /* SystemConfiguration.framework */,
+				C271C8FE1C2AA13A00157B63 /* CoreTelephony.framework */,
+				C271C8FC1C2AA13100157B63 /* CFNetwork.framework */,
+				C271C8FA1C2AA12900157B63 /* MobileCoreServices.framework */,
+				C271C8F81C2AA11F00157B63 /* CoreGraphics.framework */,
+				C271C8F61C2AA11300157B63 /* Security.framework */,
+				C271C8F41C2AA10000157B63 /* CoreLocation.framework */,
+				C271C8F21C2AA0F200157B63 /* Foundation.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		C242D4171C2BB4B4005DBAEB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C242D4181C2BB4F3005DBAEB /* UIViewFrameCategory.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C242D41A1C2BB9E2005DBAEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C242D41B1C2BBA09005DBAEB /* OBMeHeadView.swift */,
+				C242D41F1C2BE551005DBAEB /* OBTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C242D4211C2BEDE4005DBAEB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C242D4221C2BEE0F005DBAEB /* XDSetBgColorBtn.swift */,
+				C23B428E1C338B7C00B0F3E9 /* XDLoginCommonBtn.swift */,
+				C25E4A2A1C3A04F900B91252 /* XDRebulidView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C271C89B1C2A854D00157B63 = {
+			isa = PBXGroup;
+			children = (
+				C271C8A61C2A854D00157B63 /* openblog */,
+				C271C8BB1C2A854D00157B63 /* openblogTests */,
+				C271C8C61C2A854D00157B63 /* openblogUITests */,
+				C271C8A51C2A854D00157B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C271C8A51C2A854D00157B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8A41C2A854D00157B63 /* openblog.app */,
+				C271C8B81C2A854D00157B63 /* openblogTests.xctest */,
+				C271C8C31C2A854D00157B63 /* openblogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C271C8A61C2A854D00157B63 /* openblog */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8D51C2A86A800157B63 /* Classes */,
+			);
+			path = openblog;
+			sourceTree = "<group>";
+		};
+		C271C8BB1C2A854D00157B63 /* openblogTests */ = {
+			isa = PBXGroup;
+			children = (
+				C242D4141C2B94B9005DBAEB /* framework */,
+				C271C8AE1C2A854D00157B63 /* Assets.xcassets */,
+				C271C8BE1C2A854D00157B63 /* Info.plist */,
+				C271C8BC1C2A854D00157B63 /* openblogTests.swift */,
+			);
+			path = openblogTests;
+			sourceTree = "<group>";
+		};
+		C271C8C61C2A854D00157B63 /* openblogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8C71C2A854D00157B63 /* openblogUITests.swift */,
+				C271C8C91C2A854D00157B63 /* Info.plist */,
+			);
+			path = openblogUITests;
+			sourceTree = "<group>";
+		};
+		C271C8D51C2A86A800157B63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8E31C2A8A5A00157B63 /* Me */,
+				C271C8E51C2A8A5A00157B63 /* timeline */,
+				C271C8DD1C2A877200157B63 /* Home */,
+				C271C8D61C2A86A800157B63 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C271C8D61C2A86A800157B63 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C23B42921C33AA4700B0F3E9 /* Lib */,
+				C242D4211C2BEDE4005DBAEB /* Common */,
+				C242D4171C2BB4B4005DBAEB /* Category */,
+				C271C8DC1C2A876900157B63 /* Controller */,
+				C271C8D71C2A86A800157B63 /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C271C8D71C2A86A800157B63 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8D81C2A86A800157B63 /* AppDelegate.swift */,
+				C242D4151C2B9B64005DBAEB /* XDCommonFunc.swift */,
+				C271C8D91C2A86A800157B63 /* Info.plist */,
+				C271C90D1C2AA53D00157B63 /* XDCommon.h */,
+				C271C8ED1C2AA05D00157B63 /* openblog-Bridging-Header.h */,
+				C271C90C1C2AA41B00157B63 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C271C8DC1C2A876900157B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8DF1C2A882E00157B63 /* OBNavigationController.swift */,
+				C271C8E11C2A899C00157B63 /* OBTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C271C8DD1C2A877200157B63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C29E54C11C34F39D007AB37D /* View */,
+				C271C8DE1C2A877200157B63 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C271C8DE1C2A877200157B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8E71C2A8A7400157B63 /* OBHomeViewController.swift */,
+				C29E54C41C352645007AB37D /* OBContentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C271C8E31C2A8A5A00157B63 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C242D41A1C2BB9E2005DBAEB /* View */,
+				C271C8E41C2A8A5A00157B63 /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C271C8E41C2A8A5A00157B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8EB1C2A8ABF00157B63 /* OBMeViewController.swift */,
+				C242D41D1C2BD370005DBAEB /* OBLoginViewController.swift */,
+				C23B42901C33A2A000B0F3E9 /* OBSignViewController.swift */,
+				C25E4A2C1C3A113F00B91252 /* OBSettingViewController.swift */,
+				C2FD02261C3CEE5A00B4B1ED /* OBAboutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C271C8E51C2A8A5A00157B63 /* timeline */ = {
+			isa = PBXGroup;
+			children = (
+				C29E54BE1C34C187007AB37D /* View */,
+				C271C8E61C2A8A5A00157B63 /* Controller */,
+			);
+			path = timeline;
+			sourceTree = "<group>";
+		};
+		C271C8E61C2A8A5A00157B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C271C8E91C2A8AA900157B63 /* OBTimeLineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C29E54BE1C34C187007AB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C29E54BF1C34C396007AB37D /* OBTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C29E54C11C34F39D007AB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C29E54C21C34F3C0007AB37D /* OBHomeListCell.swift */,
+				C22ACE541C3B73620096B340 /* OBContentListCell.swift */,
+				C25E4A2E1C3A35A300B91252 /* XDInputTextView.swift */,
+				C22ACE561C3BA2C90096B340 /* OBWaterWavesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C271C8A31C2A854D00157B63 /* openblog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C271C8CC1C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblog" */;
+			buildPhases = (
+				C271C8A01C2A854D00157B63 /* Sources */,
+				C271C8A11C2A854D00157B63 /* Frameworks */,
+				C271C8A21C2A854D00157B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openblog;
+			productName = openblog;
+			productReference = C271C8A41C2A854D00157B63 /* openblog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C271C8B71C2A854D00157B63 /* openblogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C271C8CF1C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblogTests" */;
+			buildPhases = (
+				C271C8B41C2A854D00157B63 /* Sources */,
+				C271C8B51C2A854D00157B63 /* Frameworks */,
+				C271C8B61C2A854D00157B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C271C8BA1C2A854D00157B63 /* PBXTargetDependency */,
+			);
+			name = openblogTests;
+			productName = openblogTests;
+			productReference = C271C8B81C2A854D00157B63 /* openblogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C271C8C21C2A854D00157B63 /* openblogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C271C8D21C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblogUITests" */;
+			buildPhases = (
+				C271C8BF1C2A854D00157B63 /* Sources */,
+				C271C8C01C2A854D00157B63 /* Frameworks */,
+				C271C8C11C2A854D00157B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C271C8C51C2A854D00157B63 /* PBXTargetDependency */,
+			);
+			name = openblogUITests;
+			productName = openblogUITests;
+			productReference = C271C8C31C2A854D00157B63 /* openblogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C271C89C1C2A854D00157B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = inspiry;
+				TargetAttributes = {
+					C271C8A31C2A854D00157B63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 775V7Y38FR;
+					};
+					C271C8B71C2A854D00157B63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C271C8A31C2A854D00157B63;
+					};
+					C271C8C21C2A854D00157B63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C271C8A31C2A854D00157B63;
+					};
+				};
+			};
+			buildConfigurationList = C271C89F1C2A854D00157B63 /* Build configuration list for PBXProject "openblog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C271C89B1C2A854D00157B63;
+			productRefGroup = C271C8A51C2A854D00157B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C271C8A31C2A854D00157B63 /* openblog */,
+				C271C8B71C2A854D00157B63 /* openblogTests */,
+				C271C8C21C2A854D00157B63 /* openblogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C271C8A21C2A854D00157B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271C8DB1C2A86A800157B63 /* Info.plist in Resources */,
+				C271C8AF1C2A854D00157B63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8B61C2A854D00157B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8C11C2A854D00157B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C271C8A01C2A854D00157B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C242D4231C2BEE0F005DBAEB /* XDSetBgColorBtn.swift in Sources */,
+				C271C8E01C2A882E00157B63 /* OBNavigationController.swift in Sources */,
+				C242D4201C2BE551005DBAEB /* OBTextField.swift in Sources */,
+				C25E4A2D1C3A113F00B91252 /* OBSettingViewController.swift in Sources */,
+				C25E4A2F1C3A35A300B91252 /* XDInputTextView.swift in Sources */,
+				C23B428F1C338B7C00B0F3E9 /* XDLoginCommonBtn.swift in Sources */,
+				C271C8EA1C2A8AA900157B63 /* OBTimeLineViewController.swift in Sources */,
+				C271C8E21C2A899C00157B63 /* OBTabBarController.swift in Sources */,
+				C23B42CF1C33B22100B0F3E9 /* MBProgressHUD+MJ.m in Sources */,
+				C23B42911C33A2A000B0F3E9 /* OBSignViewController.swift in Sources */,
+				C242D41E1C2BD370005DBAEB /* OBLoginViewController.swift in Sources */,
+				C29E54C51C352645007AB37D /* OBContentViewController.swift in Sources */,
+				C271C8E81C2A8A7400157B63 /* OBHomeViewController.swift in Sources */,
+				C242D4161C2B9B64005DBAEB /* XDCommonFunc.swift in Sources */,
+				C29E54C31C34F3C0007AB37D /* OBHomeListCell.swift in Sources */,
+				C29E54C01C34C396007AB37D /* OBTextView.swift in Sources */,
+				C271C8DA1C2A86A800157B63 /* AppDelegate.swift in Sources */,
+				C2FD02271C3CEE5A00B4B1ED /* OBAboutViewController.swift in Sources */,
+				C242D4191C2BB4F3005DBAEB /* UIViewFrameCategory.swift in Sources */,
+				C25E4A2B1C3A04F900B91252 /* XDRebulidView.swift in Sources */,
+				C271C8EC1C2A8ABF00157B63 /* OBMeViewController.swift in Sources */,
+				C22ACE551C3B73620096B340 /* OBContentListCell.swift in Sources */,
+				C242D41C1C2BBA09005DBAEB /* OBMeHeadView.swift in Sources */,
+				C22ACE571C3BA2C90096B340 /* OBWaterWavesView.swift in Sources */,
+				C23B42D01C33B22100B0F3E9 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8B41C2A854D00157B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271C8BD1C2A854D00157B63 /* openblogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271C8BF1C2A854D00157B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271C8C81C2A854D00157B63 /* openblogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C271C8BA1C2A854D00157B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C271C8A31C2A854D00157B63 /* openblog */;
+			targetProxy = C271C8B91C2A854D00157B63 /* PBXContainerItemProxy */;
+		};
+		C271C8C51C2A854D00157B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C271C8A31C2A854D00157B63 /* openblog */;
+			targetProxy = C271C8C41C2A854D00157B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C271C8CA1C2A854D00157B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C271C8CB1C2A854D00157B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C271C8CD1C2A854D00157B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/openblog/Classes/Main/Other/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/openblog/Classes/Main/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "openblog/Classes/Main/Other/openblog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C271C8CE1C2A854D00157B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/openblog/Classes/Main/Other/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/openblog/Classes/Main/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "openblog/Classes/Main/Other/openblog-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C271C8D01C2A854D00157B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openblogTests",
+				);
+				INFOPLIST_FILE = openblogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openblog.app/openblog";
+			};
+			name = Debug;
+		};
+		C271C8D11C2A854D00157B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openblogTests",
+				);
+				INFOPLIST_FILE = openblogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openblog.app/openblog";
+			};
+			name = Release;
+		};
+		C271C8D31C2A854D00157B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = openblogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openblog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C271C8D41C2A854D00157B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = openblogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspriy.openblogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openblog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C271C89F1C2A854D00157B63 /* Build configuration list for PBXProject "openblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271C8CA1C2A854D00157B63 /* Debug */,
+				C271C8CB1C2A854D00157B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C271C8CC1C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271C8CD1C2A854D00157B63 /* Debug */,
+				C271C8CE1C2A854D00157B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C271C8CF1C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271C8D01C2A854D00157B63 /* Debug */,
+				C271C8D11C2A854D00157B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C271C8D21C2A854D00157B63 /* Build configuration list for PBXNativeTarget "openblogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271C8D31C2A854D00157B63 /* Debug */,
+				C271C8D41C2A854D00157B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C271C89C1C2A854D00157B63 /* Project object */;
+}
